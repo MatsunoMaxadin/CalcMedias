@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="./style.css"/>
+    <meta ="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello, World!</title>
+</head>
+<body>
+  <header> <h1> Calculador de Médias</h1></header>
+  <main>
+    
+    
+    <div> 
+      <form>
+        <h2> Dados do Colégio:</h2>
+        
+        <label for="turma">
+          Turma:
+          <input type="text" id="turma">
+        </label>
+        <label for="materia">
+          Matéria:
+          <input type="text" id="materia">
+        </label>
+        <label for="uni" class="row">
+          Quantidade de Unidades:
+          <div>
+          <input type="radio" name="uni" onclick="changeUni('3')" checked> 3
+          <input type="radio" name="uni" onclick="changeUni('4')">4
+          <input type="radio" name="uni" onclick="changeUni('5')">5
+          </div>
+        </label>
+        <label for="media">
+          Média para passar de ano:
+          <input type="number" id="media">
+        </label>
+        
+    
+        
+      </form>
+      
+      <form class="aluno"> 
+        <h2> Dados do Aluno:</h2>
+        
+        <label for="nome"> 
+          nome: <input type="text" id="nome">
+          
+          
+        </label>
+        <label>
+        notas: 
+        </label>
+        <label for="uni1">
+          
+          Unidade 1: <input type="number" id="uni1">
+          
+        </label>
+        <label for="uni2">
+          
+          Unidade 2: <input type="number" id="uni2">
+          
+        </label>
+        <label for="uni3">
+          
+          Unidade 3: <input type="number" id="uni3">
+          
+        </label>
+        <label for="uni4" id="fourth">
+          
+          Unidade 4: <input type="number" id="uni4">
+          
+        </label>
+        <label for="uni5" id="fifth">
+          
+          Unidade 5: <input type="number" id="uni5">
+          
+        </label>
+        
+        <button type="button" id="form"><span> Enviar Dados</span></button>
+          
+        
+      </form>
+    
+      <div id="result">
+        
+        
+        
+      </div>
+    
+ 
+  </main>
+  
+  <script src="./app.js"> </script>
+</body>
+</html>
