@@ -1,0 +1,86 @@
+header {
+  text-align: center;
+  
+}
+.student{
+  
+  padding: 10px;
+  border: solid black 2px;
+  
+}
+
+form, label{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  
+}
+
+.row {
+  
+}
+
+#fourth, #fifth{
+  
+  display: none;
+}
+
+.resultdiv {
+  
+  border: solid black 2px;
+  padding: 3px;
+  margin: 10px;
+}
+
+h1 {
+  
+  font-size: 6rem; 
+}
+
+h2 { 
+  font-size: 4rem;
+}
+
+label, p {
+  font-size: 3rem;
+  
+}
+
+
+
+
+Input[type="text"],
+input[type="number"],
+input[type="email"] {
+font-size: 3rem;
+height: 2.8rem;
+padding: 0.8rem;
+border: 0.15rem solid #ccc;
+}
+
+button {
+font-size: 2rem;
+height: 4rem;
+padding: 1.2rem;
+border: 0.15rem solid #ccc;
+  margin: 1rem;
+  text-align: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+font-size: 1rem;
+height: 1.8rem;
+padding: 0.5rem;
+}
+
+span {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
