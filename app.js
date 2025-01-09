@@ -164,6 +164,7 @@ const displayResults = () => {
     
     result.appendChild(resultDiv);
     
+    resultDiv.style.backgroundColor = text === 'Aprovado'? 'lightGreen' : 'lightCoral';
     cleanUp();
     };
     
