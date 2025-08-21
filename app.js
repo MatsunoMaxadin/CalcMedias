@@ -81,6 +81,10 @@ const getAvg = () => {
     for (let i in notasValue) {
         
         sum += notasValue[i];
+
+        if(notasValue[i] > 10 || notasValue[i] < 0){
+            return -1;
+        };
         
     }
     
@@ -149,6 +153,11 @@ const displayResults = () => {
         return;
         
     };
+
+    if (student.media == -1){
+        alert ('Notas inválidas. Digite notas entre 0 e 10');
+        return;
+    }
         
         const resultDiv = document.createElement('div');
     resultDiv.className = 'resultdiv';
