@@ -94,3 +94,31 @@ span {
   justify-content: center;
   
 }
+
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 3rem; /* Reduz o tamanho do h1 */
+  }
+
+  h2 {
+    font-size: 2rem; /* Reduz o tamanho do h2 */
+  }
+
+  label, p {
+    font-size: 1.2rem; /* Reduz o tamanho do texto */
+  }
+
+  input[type="text"],
+  input[type="number"],
+  input[type="email"] {
+    font-size: 1rem; /* Reduz o tamanho da fonte nos campos de input */
+    height: auto;
+    padding: 0.5rem;
+  }
+
+  button {
+    font-size: 1.2rem; /* Reduz o tamanho da fonte nos botões */
+    height: auto;
+    padding: 0.5rem 1rem;
+  }
+}
